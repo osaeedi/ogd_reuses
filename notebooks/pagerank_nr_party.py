@@ -76,12 +76,19 @@ def _(mo):
 @app.cell
 def _(os, pd, requests):
     # helper function for reading datasets with proper separator
-    def get_dataset(url):
-        r = requests.get(url, params={"format": "csv", "timezone": "Europe%2FZurich"})
+    def get_dataset(dataset_id):
+        url = f"https://data.bs.ch/api/explore/v2.1/catalog/datasets/{dataset_id}/exports/csv"
+        r = requests.get(
+            url, 
+            params={
+                "timezone": "Europe%2FZurich",
+                "use_labels": "true"
+            }
+        )
         data_path = os.path.join(os.getcwd(), "..", "data")
         if not os.path.exists(data_path):
             os.makedirs(data_path)
-        csv_path = os.path.join(data_path, "100281.csv")
+        csv_path = os.path.join(data_path, f"{dataset_id}.csv")
         with open(csv_path, "wb") as f:
             f.write(r.content)
         data = pd.read_csv(
@@ -99,7 +106,7 @@ def _(os, pd, requests):
 @app.cell
 def _(get_dataset):
     # Read the dataset
-    df = get_dataset('https://data.bs.ch/explore/dataset/100281/download')
+    df = get_dataset(dataset_id="100281")
     df = df[df['wahlkreis_code'] == 1]
     df
     return (df,)
