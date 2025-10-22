@@ -1,0 +1,231 @@
+FrageLabel,FrageLabel_Fortsetzung,FrageLabel_Anmerkung,FrageName,Format
+ID,,,ID,
+Jahr,,,Jahr,
+Gewichtung,,,weight,
+Online oder Papier,,,Methode,methode.
+Haushaltstyp,,,S1,haushalt.
+Geschlecht,,,S2,geschlecht.
+Alter,,,S3,altersgruppe.
+Staatsangehörigkeit,,,S4,staatsang.
+Haushaltseinkommen,,,S5,hheinkommen.
+Höchste abgeschlossene Schul- und Berufsbildung,,,S6,schulabschluss_aggr.
+Wahlkreis,,,S7,wahlkreis.
+Wohnviertel,,,WV,wohnviertel.
+Wie lange wohnen Sie insgesamt schon an der aktuellen Adresse?,,,Wohndauer_Adresse,dauer_adr.
+Wie lange wohnen Sie insgesamt schon im jetzigen Quartier?,,,Wohndauer_Quartier,dauer_qrt.
+Wie lange wohnen Sie insgesamt schon im Kanton Basel-Stadt?,,,Wohndauer_Kanton,dauer_kt.
+Wie gross ist die gesamte Wohnfläche Ihrer Wohnung/Ihres Hauses?,,,Wohnflaeche,wohnflaeche_rg.
+Wie viele Zimmer hat Ihre Wohnung/Ihr Haus?,,,Zimmerzahl,zimmerzahl.
+Wie gerne wohnen Sie im Kanton Basel-Stadt?,,,F1,gerne.
+Können Sie sich zu Hause draussen aufhalten?,"Ja, auf einem Balkon oder einer Terrasse",,F2a,janein.
+Können Sie sich zu Hause draussen aufhalten?,"Ja, in einem Hof, auf einem Vorplatz oder in einem Garten",,F2b,janein.
+Können Sie sich zu Hause draussen aufhalten?,Nein,,F2c,janein.
+Können Sie sich zu Hause draussen aufhalten?,,,F2,janein.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Barrierefreiheit im Wohngebäude,,F3a,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Kontakte zu Nachbarinnen und Nachbarn,,F3b,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Kontakte zu Menschen im Quartier oder Dorf,,F3c,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Barrierefreiheit im öffentlichen Raum,,F3d,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,"ÖV (Tram, Bus, S-Bahn, Zug)",,F3e,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Einkaufsmöglichkeiten,,F3f,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Gesundheitsversorgung,,F3g,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Kulturangebot,,F3h,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Sportanlagen,,F3i,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,"Restaurants, Cafés",,F3j,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Angebote und Einrichtungen für ältere Menschen,,F3k,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,Ruhe / kein Lärm durch Verkehr,,F3l,wichtig.
+Wie wichtig sind Ihnen die folgenden Punkte am aktuellen Wohnort?,"Nähe zu Grünanlagen, Parks",,F3m,wichtig.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Barrierefreiheit im Wohngebäude,"Filterfrage: Ohne Personen, die Frage 3a mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4a,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Kontakte zu Nachbarinnen und Nachbarn,"Filterfrage: Ohne Personen, die Frage 3b mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4b,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Kontakte zu Menschen im Quartier oder Dorf,"Filterfrage: Ohne Personen, die Frage 3c mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4c,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Barrierefreiheit im öffentlichen Raum,"Filterfrage: Ohne Personen, die Frage 3d mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4d,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,"ÖV (Tram, Bus, S-Bahn, Zug)","Filterfrage: Ohne Personen, die Frage 3e mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4e,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Einkaufsmöglichkeiten,"Filterfrage: Ohne Personen, die Frage 3f mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4f,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Gesundheitsversorgung,"Filterfrage: Ohne Personen, die Frage 3g mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4g,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Kulturangebot,"Filterfrage: Ohne Personen, die Frage 3h mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4h,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Sportanlagen,"Filterfrage: Ohne Personen, die Frage 3i mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4i,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,"Restaurants, Cafés","Filterfrage: Ohne Personen, die Frage 3j mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4j,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Angebote und Einrichtungen für ältere Menschen,"Filterfrage: Ohne Personen, die Frage 3k mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4k,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,Ruhe / kein Lärm durch Verkehr,"Filterfrage: Ohne Personen, die Frage 3l mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4l,zufrieden.
+Wie zufrieden sind Sie mit den folgenden Punkten am aktuellen Wohnort?,"Nähe zu Grünanlagen, Parks","Filterfrage: Ohne Personen, die Frage 3m mit «Weiss nicht» beantwortet oder keine Angabe gemacht haben.",F4m,zufrieden.
+Wie hoch ist Ihre aktuelle monatliche Netto-Miete (ohne Nebenkosten)?,,[Filterfrage: Nur Genossenschafterinnen/Genossenschafter und Mieterinnen/Mieter.],F5,wohnkosten.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,In der alten Wohnung bleiben können,,F6a,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Meine alte Wohnung finanzieren können,,F6b,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Eingeschränkte Mobilität zu Hause,,F6c,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Umzug,,F6d,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Neue Wohnung finden,,F6e,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Kleinere Wohnung finden,,F6f,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Im Quartier neue Wohnung finden,,F6g,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Bezahlbare Wohnung finden,,F6h,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Barrierefreie Wohnung finden,,F6i,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,"Anderes, nämlich:",,F6j,janein.
+Welche Herausforderungen sehen Sie in den nächsten 10 bis 20 Jahren beim Wohnen auf sich zukommen?,Voraussichtlich keine Herausforderung,,F6k,janein.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Zu Hause wohnen bleiben mit Unterstützung z. B. durch Spitex,,F7a,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,"Zu Hause wohnen bleiben mit Umbau (Lift, Dusche etc.)",,F7b,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Umziehen in anderes Haus / Wohnung mit Spitex,,F7c,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Umziehen in anderes Haus / Wohnung mit Lift,,F7d,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Seniorenresidenz ohne Serviceleistungen,,F7e,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Seniorenresidenz mit Serviceleistungen,,F7f,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,"Wohnprojekt, Wohngemeinschaft von Seniorinnen und Senioren",,F7g,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Generationenhaus (mit alten und jungen Leuten),,F7h,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,Pflegeheim,,F7i,vorstellbar.
+Welche der folgenden Wohnformen könnten Sie sich in Zukunft vorstellen?,"Alterssiedlung, Alterswohnung",,F7j,vorstellbar.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Miete zu hoch,,F8a,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Wohnung / Haus zu klein,,F8b,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Wohnung / Haus zu gross,,F8c,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Ausstattung der Wohnung / des Hauses ungenügend,,F8d,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Weg zum Einkaufen zu weit,,F8e,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Weg zur Arbeit zu weit,"Filterfrage: Nur Personen, die arbeitstätig sind",F8f,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Schlechter Ruf der Gegend,,F8g,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Nachbarinnen und Nachbarn,,F8h,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Wohnung nicht barrierefrei,,F8i,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Lärmbelastung durch Verkehr,,F8j,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Erwerb von Wohneigentum,,F8k,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Kündigung durch Vermieter,,F8l,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Anderes,,F8m,janein.
+Aus welchen Gründen kommt für Sie in Zukunft ein Umzug in Frage?,Umzug kommt nicht in Frage,,F8n,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Gleiches Quartier bzw. Dorf,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9a,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Anderes Quartier,"Filterfrage: Nur in Basel und Riehen wohnhafte Personen, für die ein Umzug in Frage kommt",F9b,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,"Andere Gemeinde im Kanton Basel-Stadt (Basel, Bettingen, Riehen)","Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9c,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,"Region Nordwestschweiz (AG, BL, SO)","Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9d,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Anderer Kanton in der Schweiz,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9e,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Grenznahes Ausland in Deutschland,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9f,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Grenznahes Ausland in Frankreich,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9g,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Anderswo,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9h,janein.
+Wo würden Sie nach dem Umzug wohnen wollen?,Weiss nicht,"Filterfrage: Nur Personen, für die ein Umzug in Frage kommt",F9i,janein.
+Wie sicher fühlen Sie sich in folgenden Situationen?,Ganz allgemein im Alltag fühle ich mich ...,,F11a,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich tagsüber alleine zu Hause bin, fühle ich mich ...",,F11b,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich tagsüber alleine im Quartier unterwegs bin, fühle ich mich ...",,F11c,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich tagsüber alleine zu Fuss/im Rollstuhl unterwegs bin, fühle ich mich ...",,F11d,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich tagsüber alleine mit dem Velo unterwegs bin, fühle ich mich ...",,F11e,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich tagsüber alleine mit dem Bus/Tram unterwegs bin, fühle ich mich ...",,F11f,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich nachts alleine zu Hause bin, fühle ich mich ...",,F11g,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich nachts alleine im Quartier unterwegs bin, fühle ich mich ...",,F11h,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich nachts alleine zu Fuss/im Rollstuhl unterwegs bin, fühle ich mich ...",,F11i,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich nachts alleine mit dem Velo unterwegs bin, fühle ich mich ...",,F11j,sicher.
+Wie sicher fühlen Sie sich in folgenden Situationen?,"Wenn ich nachts alleine mit dem Bus/Tram unterwegs bin, fühle ich mich ...",,F11k,sicher.
+Haben Sie ein Haustier?,,,F12,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,Vollzeiterwerbstätigkeit (90% und mehr),,F19a,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,Teilzeiterwerbstätigkeit (weniger als 90%),,F19b,teiz.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,Arbeitslos oder auf Stellensuche,,F19cd,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,Haushalt,,F19g,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,IV-Rente,,F19h,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,AHV-Rente,,F19i,janein.
+Wie sieht Ihre aktuelle Beschäftigungssituation aus?,Andere Situation,,F19j,janein.
+Mit welchem Verkehrsmittel legen Sie hauptsächlich Ihren Arbeitsweg zurück?,,Filterfrage: Nur Voll- oder Teilzeiterwerbstätige,F21,hauptverkehrsmittel.
+Mit welchem Verkehrsmittel legen Sie hauptsächlich Ihren Einkaufswege zurück?,,,F22,hauptverkehrsmittel.
+Mit welchem Verkehrsmittel legen Sie hauptsächlich Ihren Freizeitwege zurück?,,,F23,hauptverkehrsmittel.
+Wie häufig verbringen Sie Ihre Freizeit im eigenen Quartier?,,,F24a,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit in einem anderen Quartier?,,Filterfrage: Nur in Basel und Riehen wohnhafte Personen.,F24b,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit in einer anderen Gemeinde in Kanton Basel-Stadt?,,,F24c,haeufig_spez.
+"Wie häufig verbringen Sie Ihre Freizeit in der Region Nordwestschweiz (AG, BL, SO)?",,,F24d,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit in einem anderen Kanton der Schweiz?,,,F24e,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit im grenznahen Deutschland?,,,F24f,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit im grenznahen Frankreich?,,,F24g,haeufig_spez.
+Wie häufig verbringen Sie Ihre Freizeit im übrigen Ausland?,,,F24h,haeufig_spez.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Partner/Partnerin,,F27a,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Kind/Kinder,,F27b,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Enkelkind/Enkelkinder,,F27c,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Eltern/Elternteil,,F27d,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Andere Familienangehörige,,F27e,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Nachbarinnen, Nachbarn",,F27f,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Freundeskreis, Bekannte",,F27g,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Arbeitskollegen, -kolleginnen",,F27h,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Verein (Musik, Sport, Fasnacht etc.)",,F27i,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Partei, Verband, politische Gruppierung",,F27j,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Kirche, Glaubensgemeinschaft",,F27k,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Wohltätigkeitsorganisation,,F27l,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,"Reise-, Sport-, oder Freizeitgruppe",,F27m,haeufig_regelm.
+Mit wem (Personen oder Organisationen) verbringen Sie Ihre Freizeit und wie häufig?,Sonstige Personen oder Organisationen,,F27n,haeufig_regelm.
+Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?,,,F28_r,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Soziales,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29a,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Sport,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29b,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Freizeit,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29c,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Politik,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29d,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Bildung,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29e,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Kultur,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29f,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Nachbarschaftshilfe,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29g,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Umwelt,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29h,janein.
+In welchem Bereich sind Sie freiwillig tätig?,"Migration, Flüchtlingshilfe","Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29i,janein.
+In welchem Bereich sind Sie freiwillig tätig?,Anderer Bereich,"Filterfrage: Nur Personen, die Freiwilligenarbeit leisten",F29j,janein.
+Weshalb sind Sie nicht freiwillig tätig?,Nicht mit Beruf vereinbar,,F30a,janein.
+Weshalb sind Sie nicht freiwillig tätig?,Familiäre Aufgaben,,F30b,janein.
+Weshalb sind Sie nicht freiwillig tätig?,"Ich weiss nicht, wo ich mich engagieren könnte",,F30c,janein.
+Weshalb sind Sie nicht freiwillig tätig?,Kein Interesse,,F30d,janein.
+Weshalb sind Sie nicht freiwillig tätig?,Anderes,,F30e,janein.
+Weshalb sind Sie nicht freiwillig tätig?,Weiss nicht,,F30f,janein.
+Wie seniorenfreundlich empfinden Sie den Kanton Basel-Stadt?,,,F32,seniorenfreundlich.
+Welche dieser Angebote und Stellen kennen Sie?,Pro Senectute beider Basel,,F34a,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,Verein 55+ – Basler Seniorenkonferenz,,F34b,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,Marktplatz 55+,,F34c,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,"Anlaufstelle Info Älter werden, GGG Wegweiser",,F34d,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,"Beratung, Bedarfsabklärung und Beiträge für pflegende Angehörige an die Pflege zu Hause",,F34e,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,"Angebote der Abteilung Prävention des Gesundheitsdepartementes, z. B. Café Bâlance oder Bewegungstreff",,F34f,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,Vision des Regierungsrates «Gut und gemeinsam älter werden im Kanton Basel-Stadt»,,F34g,kenneich.
+Welche dieser Angebote und Stellen kennen Sie?,Fachstelle Alter der Gemeinde Riehen,,F34h,kenneich.
+Wie fühlen Sie sich zur Zeit gesundheitlich?,,,F35,gut.
+"Wie häufig kam es in den letzten 12 Monaten vor, dass Sie sich einsam gefühlt haben?",,,F36,haeufig_einsam.
+Sind Sie in Ihren täglichen Aktivitäten in irgendeiner Weise durch Folgendes beeinträchtigt?,Körperliche Beeinträchtigung,,F37a,janein_gesund.
+Sind Sie in Ihren täglichen Aktivitäten in irgendeiner Weise durch Folgendes beeinträchtigt?,Psychische Beeinträchtigung,,F37b,janein_gesund.
+Sind Sie in Ihren täglichen Aktivitäten in irgendeiner Weise durch Folgendes beeinträchtigt?,Geistige Beeinträchtigung,,F37c,janein_gesund.
+Sind Sie in Ihren täglichen Aktivitäten in irgendeiner Weise durch Folgendes beeinträchtigt?,Sinnesbeeinträchtigung,,F37d,janein_gesund.
+Sind Sie in Ihren täglichen Aktivitäten in irgendeiner Weise durch Folgendes beeinträchtigt?,Sonstige Beeinträchtigung,,F37e,janein_gesund.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Partnerin, Partner",,F38a,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Kind / Kinder,,F38b,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Enkelkind / Enkelkinder,,F38c,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Eltern / Elternteil,,F38d,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Andere Familienangehörige,,F38e,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Freundeskreis, Bekannte",,F38f,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Nachbarinnen, Nachbarn",,F38g,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Arbeitskollegen, -kolleginnen",,F38h,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Spitex, Pflege zu Hause",,F38i,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Tagespflegeeinrichtung,,F38j,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Mahlzeitendienst,,F38k,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Pro Senenctute,,F38l,haeufig_dwm.
+"Wie häufig erhalten Sie Hilfeleistungen von Personen und Organisationen? (Zum Beispiel Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Sonstige Personen oder Organisationen,,F38m,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?",Kind / Kinder,,F39a,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?",Enkelkind / Enkelkinder,,F39b,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?",Eltern / Elternteil,,F39c,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?",Andere Familienangehörige,,F39d,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?","Freundeskreis, Bekannte",,F39e,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?","Nachbarinnen, Nachbarn",,F39f,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?","Arbeitskollegen, -kolleginnen",,F39g,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen, die nicht in Ihrem Haushalt leben finanziell?",Sonstige Personen,,F39h,haeufig_regelm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Partnerin, Partner",,F40a,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Kind / Kinder,,F40b,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Enkelkind / Enkelkinder,,F40c,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Eltern / Elternteil,,F40d,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Andere Familienangehörige,,F40e,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Freundeskreis, Bekannte",,F40f,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Nachbarinnen, Nachbarn",,F40g,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)","Arbeitskollegen, -kolleginnen",,F40h,haeufig_dwm.
+"Wie häufig unterstützen Sie andere Personen? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Pflege, Hausarbeit etc.)",Sonstige Personen,,F40i,haeufig_dwm.
+"Wieviele Stunden pro Woche unterstützen oder pflegen Sie andere Personen ohne Bezahlung? (Zum Beispiel Kinderhüten, Garten- oder Reinigungsarbeiten, Einkaufen, Füttern von Tieren, Hausarbeit etc.)",,,F41,dauer_pflege.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Kind / Kinder,,F42a,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Enkelkind / Enkelkinder,,F42b,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Eltern / Elternteil,,F42c,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Andere Familienangehörige,,F42d,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?","Freundeskreis, Bekannte",,F42e,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?","Nachbarinnen, Nachbarn",,F42f,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?","Arbeitskollegen, -kolleginnen",,F42g,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Pro Senectute,,F42h,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Ergänzungsleistungen (EL) oder Beihilfen zu AHV/IV,,F42i,haeufig_regelm.
+"Wie häufig erhalten Sie finanzielle Unterstützung von Personen, die nicht in Ihrem Haushalt leben und von Organisationen?",Sonstige Personen oder Organisationen,,F42j,haeufig_regelm.
+Haben Sie genug Geld für die folgenden Dinge?,"Wohnungsmiete, Einrichtung",,F43a,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Krankenkasse,,F43b,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Lebensmittel,,F43c,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Kleidung,,F43d,geld.
+Haben Sie genug Geld für die folgenden Dinge?,"Freizeitaktivitäten (Ausflüge, Hobbies, Sport etc.)",,F43e,geld.
+Haben Sie genug Geld für die folgenden Dinge?,"Kultur (Konzerte, Theater, Museum etc.)",,F43f,geld.
+Haben Sie genug Geld für die folgenden Dinge?,"Ferien, Reisen",,F43g,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Sparen,,F43h,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Zahnarztkosten,,F43i,geld.
+Haben Sie genug Geld für die folgenden Dinge?,"Versicherungen (Hausrat, Privathaftpflicht etc.)",,F43j,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Steuern,,F43k,geld.
+Haben Sie genug Geld für die folgenden Dinge?,"Unterstützungsleistungen im Alltag (Haushalthilfe, Tagesheim etc.)",,F43l,geld.
+Haben Sie genug Geld für die folgenden Dinge?,Geschenke machen,,F43m,geld.
+Wie stehen Sie zu folgender Aussage?,Ich bin informiert über Angebote zur Beratung oder Unterstützung bei finanziellen Problemen.,,F45a,zustimmen.
+Wie stehen Sie zu folgender Aussage?,Ich habe bereits Angebote zur Beratung oder Unterstützung bei finanziellen Problemen in Anspruch genommen.,,F45b,zustimmen.
+Wie stehen Sie zu folgender Aussage?,Mit meiner momentanen finanziellen Situation bin ich zufrieden.,,F45c,zustimmen.
+Wie stehen Sie zu folgender Aussage?,Meine finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.,,F45d,zustimmen.
+Wie stehen Sie zu folgender Aussage?,Meine finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.,,F45e,zustimmen.
+Wie stehen Sie zu folgender Aussage?,In den letzten 12 Monaten war es finanziell zum Teil knapp.,,F45f,zustimmen.
