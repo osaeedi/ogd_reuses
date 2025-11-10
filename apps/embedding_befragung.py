@@ -116,7 +116,7 @@ def _(mo):
 
 
 @app.cell
-def _(color_candidates, group_to_cols, mo):
+def _(color_candidates, group_to_cols, meta, mo):
     default_group = next(iter(group_to_cols.keys())) if group_to_cols else None
 
     group_dropdown = mo.ui.dropdown(
@@ -125,10 +125,33 @@ def _(color_candidates, group_to_cols, mo):
         label="Fragegruppe für Embedding (eine wählen)"
     )
 
+    # --- Build restricted color-by options from metadata ---
+    label_map = dict(zip(meta["FrageName"], meta["FrageLabel"]))
+
+    allowed_color_vars = [
+        "Methode","S1","S2","S3","S4","S5","S6","S7","WV",
+        "Wohndauer_Adresse","Wohndauer_Quartier","Wohndauer_Kanton",
+        "Wohnflaeche","Zimmerzahl","F1",
+    ]
+
+    valid_color_vars = [v for v in allowed_color_vars if v in color_candidates]
+
+    # options as (label, value) tuples
+    color_options = [(label_map.get(v, v), v) for v in valid_color_vars]
+
+    # default must be one of the actual option *tuples*
+    def _default_pair(target_value: str, options):
+        for pair in options:
+            if len(pair) == 2 and pair[1] == target_value:
+                return pair
+        return options[0] if options else None
+
+    default_color_pair = _default_pair("S3", color_options)
+
     color_by = mo.ui.dropdown(
-        options=color_candidates,
-        value=("Jahr" if "Jahr" in color_candidates else (color_candidates[0] if color_candidates else None)),
-        label="Farbkodierung (Color by)"
+        options=color_options,
+        value=default_color_pair,
+        label="Farbkodierung (Color by – Fragen mit Personenbezug)"
     )
 
     dimred_dropdown = mo.ui.dropdown(
@@ -381,7 +404,7 @@ def _(c, color_by, df_embed, explained, mo, pd, projection_desc, want):
     import altair as alt
 
     # Decide color encoding (numeric vs categorical)
-    color_field = color_by.value
+    color_field = color_by.value[1]
     # Select only the requested columns plus comp1/comp2 and ensure color field is present
     base_cols = [
         "Methode", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "WV",
