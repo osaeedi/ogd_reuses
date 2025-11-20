@@ -64,8 +64,8 @@ def _(mo):
 @app.cell
 def _(os, pd):
     # Daten laden (lokal oder via get_dataset)
-    df = get_dataset(dataset_id="100428")
-    # df = pd.read_csv(os.path.join("data/100428.csv"), sep=";")
+    # df = get_dataset(dataset_id="100428")
+    df = pd.read_csv(os.path.join("data/100428.csv"), sep=";")
     return (df,)
 
 
