@@ -1,3 +1,5 @@
 *.gexf
+*.csv
+*.gif
 
 __marimo__
