@@ -57,7 +57,6 @@ def _(os, pd, requests):
 def _(mo):
     mo.md(rf"""
     # Geteilte Mikromobilität nach Bezirk, Wochentagesabschnitt und Monat
-    Karte der kumulierten durchschnittlichen Verfügbarkeit (∑ *mean*) je Bezirk, gefiltert nach Monat, Wochentag und 3-Stunden-Zeitfenster.
     """)
     return
 

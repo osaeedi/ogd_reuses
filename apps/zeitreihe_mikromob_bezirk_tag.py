@@ -63,11 +63,9 @@ def _(os, pd, requests):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(rf"""
-    # Mikromobilität im Kanton Basel-Stadt nach Bezirk
-    Die Karte zeigt die kumulierte durchschnittliche Verfügbarkeit von Mikromobilitätsfahrzeugen (E-Scooter, E-Bikes etc.) pro Bezirk im Kanton Basel-Stadt für den ausgewählten Tag. Die Daten stammen von verschiedenen Anbietern und können nach Anbieter, Fahrzeugtyp, Bauweise, Antriebsart und Reichweite gefiltert werden.
+    # Mikromobilität im Kanton Basel-Stadt nach Bezirk und Tag
     """)
     return
-
 
 @app.cell
 def _(os, pd):

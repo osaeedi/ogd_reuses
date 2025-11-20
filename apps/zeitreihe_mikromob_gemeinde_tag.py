@@ -67,8 +67,7 @@ def _(os, pd, requests):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(rf"""
-    # Geteilte Mikromobilität nach Gemeinde und Tag (Kanton Basel-Stadt)
-    Choropleth der kumulierten durchschnittlichen Verfügbarkeit von Mikromobilitätsfahrzeugen pro Gemeinde für den gewählten Tag.
+    # Geteilte Mikromobilität nach Gemeinde und Tag 
     """)
     return
 
