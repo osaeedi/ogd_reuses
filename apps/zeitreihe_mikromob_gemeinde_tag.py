@@ -76,8 +76,8 @@ def _(mo):
 @app.cell
 def _(os, pd):
     # Daten lesen
-    # df = get_dataset("100422")
-    df = pd.read_csv(os.path.join("data/100422.csv"), sep=";", on_bad_lines="warn", encoding_errors="ignore", low_memory=False)
+    df = get_dataset("100422")
+    # df = pd.read_csv(os.path.join("data/100422.csv"), sep=";", on_bad_lines="warn", encoding_errors="ignore", low_memory=False)
     return (df,)
 
 
