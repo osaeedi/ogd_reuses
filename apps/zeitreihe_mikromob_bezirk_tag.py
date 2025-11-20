@@ -295,7 +295,8 @@ def _(alt, geojson):
             alt.Chart(data)
             .mark_geoshape(stroke="white", strokeWidth=0.5)
             .encode(
-                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit"),
+                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit",
+                               scale=alt.Scale(scheme="blues")),
                 tooltip=[
                     alt.Tooltip("properties.bez_name:N", title="Bezirk"),
                     alt.Tooltip("properties.value:Q", title="∑ Verfügbarkeit", format=".3f"),
@@ -443,7 +444,7 @@ def _(
                       color=alt.Color(
                           "properties.value:Q",
                           title="∑ Verfügbarkeit",
-                          scale=alt.Scale(domain=[min_val, max_val], clamp=True, nice=False),
+                          scale=alt.Scale(domain=[min_val, max_val], clamp=True, nice=False, scheme="blues"),
                       ),
                       tooltip=[
                           alt.Tooltip("properties.bez_name:N", title="Bezirk"),

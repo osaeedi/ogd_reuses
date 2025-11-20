@@ -15,7 +15,7 @@
 
 import marimo
 
-__generated_with = "0.17.7"
+__generated_with = "0.17.8"
 app = marimo.App(width="medium", auto_download=["html"])
 
 
@@ -67,7 +67,7 @@ def _(os, pd, requests):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(rf"""
-    # Geteilte Mikromobilität nach Gemeinde und Tag 
+    # Geteilte Mikromobilität nach Gemeinde und Tag
     """)
     return
 
@@ -249,7 +249,8 @@ def _(alt, geojson):
             alt.Chart(data)
             .mark_geoshape(stroke="white", strokeWidth=0.5)
             .encode(
-                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit"),
+                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit",
+                               scale=alt.Scale(scheme="blues")),
                 tooltip=[
                     alt.Tooltip("properties.gemeinde_name:N", title="Gemeinde"),
                     alt.Tooltip("properties.value:Q", title="∑ Verfügbarkeit", format=".3f"),
@@ -382,7 +383,7 @@ def _(alle, alt, btn_ts, dd_anbieter, df, gemeinden, json, mo, os, pd):
                       color=alt.Color(
                           "properties.value:Q",
                           title="∑ Verfügbarkeit",
-                          scale=alt.Scale(domain=[min_val, max_val], clamp=True, nice=False),
+                          scale=alt.Scale(domain=[min_val, max_val], clamp=True, nice=False, scheme="blues"),
                       ),
                       tooltip=[
                           alt.Tooltip("properties.gemeinde_name:N", title="Gemeinde"),

@@ -215,7 +215,8 @@ def _(alt, geojson, subtitle):
             alt.Chart(data)
             .mark_geoshape(stroke="white", strokeWidth=0.5)
             .encode(
-                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit"),
+                color=alt.Color("properties.value:Q", title="∑ Verfügbarkeit",
+                                scale=alt.Scale(scheme="blues")),
                 tooltip=[
                     alt.Tooltip("properties.bez_name:N", title="Bezirk"),
                     alt.Tooltip("properties.value:Q", title="∑ Verfügbarkeit", format=".3f"),
