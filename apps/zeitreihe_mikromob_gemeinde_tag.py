@@ -219,7 +219,6 @@ def _(get_dataset):
     # Daten lesen
     df = get_dataset("100422")
     # df = pd.read_csv(os.path.join("data/100422.csv"), sep=";", on_bad_lines="warn", encoding_errors="ignore", low_memory=False)
-    df
     return (df,)
 
 
@@ -434,7 +433,7 @@ def _(
     re,
 ):
     mo.stop(not btn_ts.value)
-    import imageio.v3 as iio, io as _io
+    from vl_convert import vegalite_to_png
     # --- Auswahl
     provider = dd_anbieter.value if dd_anbieter is not None else None
 
@@ -544,12 +543,8 @@ def _(
                   .properties(width=720, height=520, title=title)
             )
 
-            # --- Altair chart.save() -> PNG in memory ---
-            buf = _io.BytesIO()
-            chart_gif.save(buf, format="png")
-            buf.seek(0)
-            frames.append(iio.imread(buf))
-
+            png_bytes = vegalite_to_png(chart_gif.to_dict())
+            frames.append(iio.imread(_io.BytesIO(png_bytes)))
             bar.update(subtitle=dlabel)
 
     if not frames:
@@ -573,7 +568,6 @@ def _(
         label="GIF herunterladen"
     )
     mo.vstack([preview, dl], gap="0.75rem")
-
     return
 
 
