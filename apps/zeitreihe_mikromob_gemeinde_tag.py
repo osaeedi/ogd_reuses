@@ -30,7 +30,6 @@ def _():
     import io
     import re
     import numpy as np
-    from vl_convert import vegalite_to_png
     import imageio.v3 as iio, io as _io
     from babel.dates import format_date
     return (
@@ -45,7 +44,6 @@ def _():
         pd,
         re,
         requests,
-        vegalite_to_png,
     )
 
 
