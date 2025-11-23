@@ -30,9 +30,8 @@ def _():
     import io
     import re
     import numpy as np
-    import imageio.v3 as iio, io as _io
     from babel.dates import format_date
-    return alt, format_date, iio, io, json, mo, np, os, pd, re, requests
+    return alt, format_date, io, json, mo, np, os, pd, re, requests
 
 
 @app.cell
@@ -427,7 +426,6 @@ def _(
     df,
     format_date,
     gemeinden,
-    iio,
     json,
     mo,
     np,
@@ -436,7 +434,7 @@ def _(
     re,
 ):
     mo.stop(not btn_ts.value)
-    from vl_convert import vegalite_to_png
+    import imageio.v3 as iio, io as _io
     # --- Auswahl
     provider = dd_anbieter.value if dd_anbieter is not None else None
 
@@ -546,8 +544,12 @@ def _(
                   .properties(width=720, height=520, title=title)
             )
 
-            png_bytes = vegalite_to_png(chart_gif.to_dict())
-            frames.append(iio.imread(_io.BytesIO(png_bytes)))
+            # --- Altair chart.save() -> PNG in memory ---
+            buf = _io.BytesIO()
+            chart_gif.save(buf, format="png")
+            buf.seek(0)
+            frames.append(iio.imread(buf))
+
             bar.update(subtitle=dlabel)
 
     if not frames:
@@ -571,6 +573,7 @@ def _(
         label="GIF herunterladen"
     )
     mo.vstack([preview, dl], gap="0.75rem")
+
     return
 
 
