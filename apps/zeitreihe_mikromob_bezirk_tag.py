@@ -27,7 +27,6 @@ def _():
     import requests
     import os
     import json
-    from pathlib import Path
     import io
     import re
     import numpy as np
