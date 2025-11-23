@@ -30,23 +30,9 @@ def _():
     import io
     import re
     import numpy as np
-    from vl_convert import vegalite_to_png
     import imageio.v3 as iio, io as _io
     from babel.dates import format_date
-    return (
-        alt,
-        format_date,
-        iio,
-        io,
-        json,
-        mo,
-        np,
-        os,
-        pd,
-        re,
-        requests,
-        vegalite_to_png,
-    )
+    return alt, format_date, iio, io, json, mo, np, os, pd, re, requests
 
 
 @app.cell
@@ -497,9 +483,9 @@ def _(
     os,
     pd,
     re,
-    vegalite_to_png,
 ):
     mo.stop(not btn_ts.value)
+    from vl_convert import vegalite_to_png
 
     # --- selection ---
     provider = dd_anbieter.value
