@@ -14,7 +14,7 @@
 
 import marimo
 
-__generated_with = "0.17.0"
+__generated_with = "0.18.4"
 app = marimo.App(width="medium", auto_download=["html"])
 
 
@@ -28,14 +28,12 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
+    mo.md(r"""
     # 2D-Embedding der Antworten (Ordinal/Binär/Nominal → SVD → t-SNE/UMAP)
 
-    **Ziel:** Aus ausgewählten Fragen (Gruppe) werden **ordinale/binä­re** Items sinnvoll als **Scores** kodiert (Reihenfolge bleibt erhalten), **nominale** Items bleiben **one-hot**. Danach **Truncated SVD** auf \(k\) Dimensionen und 2D-Projektion via **t-SNE** oder **UMAP**.  
+    **Ziel:** Aus ausgewählten Fragen (Gruppe) werden **ordinale/binä­re** Items sinnvoll als **Scores** kodiert (Reihenfolge bleibt erhalten), **nominale** Items bleiben **one-hot**. Danach **Truncated SVD** auf \(k\) Dimensionen und 2D-Projektion via **t-SNE** oder **UMAP**.
     Die resultierenden **Komponenten (`comp1`, `comp2`)** werden in den Original-DataFrame zurückgeschrieben. Die **Brush-Auswahl** zeigt am Ende **alle Spalten** der selektierten Zeilen.
-    """
-    )
+    """)
     return
 
 
@@ -56,14 +54,12 @@ def _(pd):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
+    mo.md(r"""
     ## Gruppierung der Fragen (F-Spalten)
 
-    Wir parsen alle Spalten, die mit `F…` beginnen, und gruppieren sie in Themenblöcke.  
+    Wir parsen alle Spalten, die mit `F…` beginnen, und gruppieren sie in Themenblöcke.
     Das Dropdown **“Fragegruppe für Embedding”** steuert, welche F-Spalten für das Embedding verwendet werden.
-    """
-    )
+    """)
     return
 
 
@@ -111,7 +107,9 @@ def _(df):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## Steuerung & Parameter""")
+    mo.md(r"""
+    ## Steuerung & Parameter
+    """)
     return
 
 
@@ -205,12 +203,10 @@ def _(group_dropdown, group_to_cols):
 
 @app.cell(hide_code=True)
 def _(group_dropdown, mo):
-    mo.md(
-        f"""
+    mo.md(f"""
     ### Aktive Fragegruppe
     **{group_dropdown.value}** — die folgenden F-Spalten werden einbezogen.
-    """
-    )
+    """)
     return
 
 
@@ -222,7 +218,9 @@ def _(df, mo, want):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## Pipeline: Gemischtes Encoding → SVD(k) → 2D-Projektion (Komponenten werden zurückgeschrieben)""")
+    mo.md(r"""
+    ## Pipeline: Gemischtes Encoding → SVD(k) → 2D-Projektion (Komponenten werden zurückgeschrieben)
+    """)
     return
 
 
